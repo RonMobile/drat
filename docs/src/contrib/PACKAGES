@@ -11,8 +11,8 @@ Package: fs
 Version: 1.5.0.9000
 Depends: R (>= 3.1)
 Imports: methods
-Suggests: testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon, rmarkdown,
-         knitr, withr, spelling, vctrs (>= 0.3.0)
+Suggests: testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon, rmarkdown, knitr,
+          withr, spelling, vctrs (>= 0.3.0)
 License: MIT + file LICENSE
 MD5sum: 6c9f37132d4c61fbb5b69df4f3088c63
 NeedsCompilation: yes
@@ -25,4 +25,13 @@ LinkingTo: Rcpp, later
 Suggests: testthat, callr, curl, websocket
 License: GPL (>= 2) | file LICENSE
 MD5sum: 432bf7623b60b18ac02695466d54a1a1
+NeedsCompilation: yes
+
+Package: later
+Version: 1.2.0.9000
+Imports: Rcpp (>= 0.12.9), rlang
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+MD5sum: 17a99bf7fa8069400f5f61e1d41afd86
 NeedsCompilation: yes
